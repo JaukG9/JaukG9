@@ -1,9 +1,3 @@
-<!--
-  Profile README for @JaukG9
-  Banner typography: Playfair Display (display) + HK Grotesk (body) — both SIL OFL, rendered into PNG via assets/gen_banner.py
-  Theme-aware via <picture> + prefers-color-scheme. Accent: #d32f2f
--->
-
 <div align="center">
 
 <picture>
@@ -23,7 +17,7 @@
 
 </div>
 
-I build at the intersection of machine learning, full-stack development, and robotics — from NLP models that triage mental health text, to autonomous VEX robots, to competitive AI for Pokémon Showdown. I care about tech that has real-world, social-impact applications, and I like taking projects from a rough idea all the way to something deployed and working.
+I build at the intersection of machine learning, full-stack development, and robotics, from NLP models that triage mental health text, to autonomous VEX robots, to competitive AI for Pokémon Showdown. I care about tech that has real-world, social-impact applications, and I like taking projects from a rough idea all the way to something deployed and working.
 
 <p align="center">
   <img alt="Python" src="https://img.shields.io/badge/Python-d32f2f?style=flat-square&logo=python&logoColor=white">
@@ -45,7 +39,7 @@ I build at the intersection of machine learning, full-stack development, and rob
 - **[mental-health-sentiment-analysis](https://github.com/JaukG9/mental-health-sentiment-analysis):** hybrid BERT + Random Forest pipeline for automated mental health text triage (~85% accuracy), deployed on Hugging Face Spaces with a GitHub Pages frontend; basis for a paper submitted to IJHSR
 - **[voice-health](https://github.com/JaukG9/voice-health):** XGBoost model on the UCI Parkinson's voice dataset, with SHAP for interpreting vocal biomarkers
 - **[Parkinsons-Arduino](https://github.com/JaukG9/Parkinsons-Arduino):** Arduino-based hardware companion for Parkinson's-related signal sensing
-- **[PokeNet](https://github.com/JaukG9/PokeNet):** supervised imitation-learning AI for competitive Pokémon Showdown (Gen 9 OU) — a residual MLP trained on a 725-dimensional feature vector built from my own gameplay data, collected through a terminal proxy bot using poke-env
+- **[Pokémon Showdown AI](https://github.com/JaukG9/PokeNet):** supervised imitation-learning AI for competitive Pokémon Showdown (Gen 9 OU). A residual MLP trained on a 725-dimensional feature vector built from my own gameplay data, collected through a terminal proxy bot using poke-env.
 
 Also completed an ML research technical assessment (XGBoost + SHAP on the UCI Parkinson's voice dataset) as part of a university research lab application, and an AP Research paper on implicitness and adaptability in gamified educational environments, including statistical analysis of in-game metrics.
 
