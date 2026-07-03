@@ -1,10 +1,9 @@
 <!--
   Profile README for @JaukG9
   Typography: Playfair Display (display/headers) + HK Grotesk (body/tagline) — both SIL OFL
-  Palette: ink #1a1a1a / #f5f5f5 for structure, single accent #d32f2f used only for headers,
-  the divider, the bullet mark, and the four contact badges. Everything else stays plain text
-  so it inherits GitHub's own light/dark colors instead of fighting them.
-  Regenerate anytime with assets/gen_banner.py and assets/gen_headers.py.
+  All images (hero, headers, divider, bullet) are transparent PNGs so they sit correctly on
+  GitHub's actual page background, light or dark, rather than carrying a baked-in fill color
+  that only matches one theme. Regenerate anytime with assets/gen_banner.py and assets/gen_headers.py.
 -->
 
 <div align="center">
@@ -51,13 +50,15 @@ at Pokémon than I am.</i>
 <img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/PokeNet">PokeNet</a></strong>: a supervised imitation-learning AI for competitive Pokémon Showdown (Gen 9 OU), built as a residual MLP trained on a 725-dimensional feature vector from my own gameplay data, collected through a terminal proxy bot using poke-env.
 </p>
 
-I also built an XGBoost and SHAP pipeline on the UCI Parkinson's voice dataset as a technical assessment for a university research lab, and wrote an AP Research paper on implicitness and adaptability in gamified educational environments, with statistical analysis of the game metrics behind it.
+I also built an XGBoost and SHAP pipeline on the UCI Parkinson's voice dataset as a technical assessment for a university research lab application, and wrote an AP Research paper on implicitness and adaptability in gamified educational environments, with statistical analysis of the game metrics behind it.
 
-<br>
+<p align="center">
 <img src="./assets/headers/divider.png" width="620">
-<br><br>
+</p>
 
 <img src="./assets/headers/hdr-robotics.png" height="34">
+
+I compete with VEX Robotics Team 285C.
 
 <p>
 <img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/Pushback-285C">Pushback-285C</a></strong>: competition code for the Push Back season.<br>
@@ -66,21 +67,35 @@ I also built an XGBoost and SHAP pipeline on the UCI Parkinson's voice dataset a
 
 Outside competition code, I designed automatic motion-chaining formulas for LemLib's `moveToPoint()` and `turnToHeading()`, using kinematic stopping distance and trapezoidal or triangular motion profiles so the robot carries its current speed into the next movement instead of stopping and restarting between points.
 
-<br>
+<p align="center">
 <img src="./assets/headers/divider.png" width="620">
-<br><br>
-
-<img src="./assets/headers/hdr-fullstack.png" height="34">
-
-<p>
-<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/Project-1600">Project 1600</a></strong>: a full-stack SAT prep and academic mentoring platform (Next.js 15, Supabase, Tailwind CSS v4, Stripe) with mentor and student dashboards, courses, assignments, and messaging.<br>
-<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/2DPlatformer-IAGE">2DPlatformer-IAGE</a></strong>: an original 2D platformer game.<br>
-<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/APUSH-Practice">APUSH-Practice</a></strong>: a gamified AP US History practice site, tied to my AP Research work on implicitness and adaptability in gamified learning environments.
 </p>
 
-<br>
+<img src="./assets/headers/hdr-other.png" height="34">
+
+<p>
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/Project-1600">Project 1600</a></strong>: a full-stack SAT prep and mentoring platform built with Next.js and Supabase.<br>
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/2DPlatformer-IAGE">2DPlatformer-IAGE</a></strong>: an original 2D platformer game.<br>
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/APUSH-Practice">APUSH-Practice</a></strong>: a gamified AP US History practice site.
+</p>
+
+<p align="center">
 <img src="./assets/headers/divider.png" width="620">
-<br><br>
+</p>
+
+<img src="./assets/headers/hdr-highlights.png" height="34">
+
+<p>
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong>Research paper</strong>: wrote a paper on a hybrid BERT and Random Forest pipeline for mental health text triage, submitted to the International Journal of High School Research (IJHSR).<br>
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong>Rice University</strong>: completed a research program at Rice University.<br>
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong>Research lab technical assessment</strong>: built an XGBoost and SHAP pipeline on the UCI Parkinson's voice dataset as part of a university research lab application.<br>
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong>AP Research</strong>: independent paper on implicitness and adaptability in gamified educational environments, including original statistical analysis of in-game metrics.<br>
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong>VEX Robotics</strong>: ongoing competitor with Team 285C.
+</p>
+
+<p align="center">
+<img src="./assets/headers/divider.png" width="620">
+</p>
 
 <div align="center">
 <img src="./assets/headers/hdr-activity.png" height="34">

@@ -20,7 +20,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&title_color=d32f2f&icon_color=d32f2f&text_color=1a1a1a&bg_color=fdfdfd
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&title_color=d32f2f&icon_color=d32f2f&text_color=1a1a1a&bg_color=00000000
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -28,7 +28,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&title_color=d32f2f&icon_color=d32f2f&text_color=f5f5f5&bg_color=0b0b0b
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&title_color=d32f2f&icon_color=d32f2f&text_color=f5f5f5&bg_color=00000000
           path: profile/stats-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -36,7 +36,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&hide_border=true&title_color=d32f2f&text_color=1a1a1a&bg_color=fdfdfd
+          options: username=${{ github.repository_owner }}&layout=compact&hide_border=true&title_color=d32f2f&text_color=1a1a1a&bg_color=00000000
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -44,7 +44,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&hide_border=true&title_color=d32f2f&text_color=f5f5f5&bg_color=0b0b0b
+          options: username=${{ github.repository_owner }}&layout=compact&hide_border=true&title_color=d32f2f&text_color=f5f5f5&bg_color=00000000
           path: profile/top-langs-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 

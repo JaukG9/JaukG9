@@ -1,13 +1,12 @@
 from PIL import Image, ImageDraw, ImageFont
+import os
 
 FONT_DIR = "/home/claude/fonts"
 DISPLAY_BOLD = f"{FONT_DIR}/PlayfairDisplay-Bold.ttf"
-DISPLAY_BLACK = f"{FONT_DIR}/PlayfairDisplay-Black.ttf"
-BODY = f"{FONT_DIR}/HKGrotesk-Regular.ttf"
-BODY_SEMI = f"{FONT_DIR}/HKGrotesk-SemiBold.ttf"
 
-ACCENT = (211, 47, 47, 255)      # #d32f2f — visible on both light & dark, so headers need no theme pair
-SCALE = 3
+ACCENT = (211, 47, 47, 255)  # #d32f2f — visible on both light & dark, so headers need no theme pair
+SCALE = 5  # supersample factor for clean serif edges
+OUT_MULT = 3  # final native resolution multiplier over "logical" size, for retina sharpness
 
 def make_header(text, filename, size=46, pad_x=6, pad_y=14, underline=True):
     font = ImageFont.truetype(DISPLAY_BOLD, size * SCALE)
@@ -23,7 +22,9 @@ def make_header(text, filename, size=46, pad_x=6, pad_y=14, underline=True):
     if underline:
         y = pad_y * SCALE * 2 + th
         draw.line([(pad_x * SCALE, y), (pad_x * SCALE + tw * 0.32, y)], fill=ACCENT, width=int(3 * SCALE))
-    img = img.resize((int(W / SCALE * 2), int(H / SCALE * 2)), Image.LANCZOS)
+    final_w = int(W / SCALE * OUT_MULT)
+    final_h = int(H / SCALE * OUT_MULT)
+    img = img.resize((final_w, final_h), Image.LANCZOS)
     img.save(filename)
 
 def make_divider(filename, width=1100, height=26):
@@ -37,7 +38,7 @@ def make_divider(filename, width=1100, height=26):
     draw.line([(W // 2 + dh + line_gap, cy), (W, cy)], fill=ACCENT, width=int(2 * SCALE))
     cx = W // 2
     draw.polygon([(cx, cy - dh), (cx + dh, cy), (cx, cy + dh), (cx - dh, cy)], fill=ACCENT)
-    img = img.resize((width, height), Image.LANCZOS)
+    img = img.resize((width * (OUT_MULT // 2 or 1), height * (OUT_MULT // 2 or 1)), Image.LANCZOS)
     img.save(filename)
 
 def make_bullet(filename, size=28):
@@ -46,23 +47,26 @@ def make_bullet(filename, size=28):
     draw = ImageDraw.Draw(img)
     m = S * 0.22
     draw.polygon([(S/2, m), (S - m, S/2), (S/2, S - m), (m, S/2)], fill=ACCENT)
-    img = img.resize((size, size), Image.LANCZOS)
+    out = size * (OUT_MULT // 2 or 1)
+    img = img.resize((out, out), Image.LANCZOS)
     img.save(filename)
 
 headers = [
     ("Machine Learning & Research", "hdr-ml.png"),
-    ("VEX Robotics (Team 285C)", "hdr-robotics.png"),
-    ("Full-Stack & Game Dev", "hdr-fullstack.png"),
+    ("VEX Robotics", "hdr-robotics.png"),
+    ("Other Projects", "hdr-other.png"),
+    ("Highlights", "hdr-highlights.png"),
     ("GitHub Activity", "hdr-activity.png"),
     ("GitHub Stats", "hdr-stats.png"),
 ]
 
-import os
 os.makedirs("/home/claude/headers", exist_ok=True)
-for stale in ("hdr-coursework.png", "hdr-beyond.png"):
+# clean out any header images from earlier section layouts that no longer apply
+for stale in ("hdr-coursework.png", "hdr-beyond.png", "hdr-fullstack.png"):
     stale_path = f"/home/claude/headers/{stale}"
     if os.path.exists(stale_path):
         os.remove(stale_path)
+
 for text, fname in headers:
     make_header(text, f"/home/claude/headers/{fname}")
 
