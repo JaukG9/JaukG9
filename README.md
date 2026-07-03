@@ -12,7 +12,7 @@
   &ensp;
   <a href="https://linkedin.com/in/ayaan-goswami-06418936a/" title="LinkedIn"><img height="26" alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-d32f2f?style=flat-square&logo=linkedin&logoColor=white"></a>
   &ensp;
-  <a href="mailto:YOUR-EMAIL@example.com" title="Email"><img height="26" alt="Email" src="https://img.shields.io/badge/Email-d32f2f?style=flat-square&logo=gmail&logoColor=white"></a>
+  <a href="mailto:ayaangoswami17@gmail.com" title="Email"><img height="26" alt="Email" src="https://img.shields.io/badge/Email-d32f2f?style=flat-square&logo=gmail&logoColor=white"></a>
 </p>
 
 <br>
@@ -34,7 +34,7 @@ a model, a robot, or a web app. Most of what is here started as a question I was
 
 <p>
 <img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/mental-health-sentiment-analysis">Mental Health Sentiment Analysis</a></strong>: hybrid BERT and Random Forest pipeline for automated mental health text triage (about 85% accuracy), deployed on Hugging Face Spaces with a GitHub Pages frontend. The basis for a paper submitted to IJHSR.<br>
-<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/voice-health">Voice Health</a></strong>: XGBoost model on the UCI Parkinson's voice dataset, with SHAP for interpreting vocal biomarkers.<br>
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/voice-health">Voice Health</a></strong>: App that tracks the long-term progression of voice-impacting degenerative diseases (aphasia, Parkinson's, etc.).<br>
 <img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/Parkinsons-Arduino">Parkinsons TinyWatch</a></strong>: an Arduino-based hardware companion for Parkinson's-related signal sensing.<br>
 <img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/showdown-AI">Pokémon Showdown AI</a></strong>: a supervised imitation-learning AI for competitive Pokémon Showdown (Gen 9 OU), built as a residual MLP trained on a 725-dimensional feature vector from my own gameplay data, collected through a terminal proxy bot using poke-env.
 </p>
@@ -66,7 +66,7 @@ Outside competition code, I designed automatic motion-chaining formulas for LemL
 <p>
 <img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://project-1600-one.vercel.app">Project 1600</a></strong>: a full-stack SAT prep and mentoring platform built with Next.js and Supabase.<br>
 <img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/2DPlatformer-IAGE">IAGE 2D Platformer</a></strong>: an original 2D platformer game used for a research project over implcitness & adaptability in gamiefied education.<br>
-<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/APUSH-Practice">APUSH-Practice</a></strong>: a gamified AP US History practice site.
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/APUSH-Practice">APUSH Practice</a></strong>: a gamified AP US History practice site.
 </p>
 
 <p align="center">
