@@ -1,11 +1,3 @@
-<!--
-  Profile README for @JaukG9
-  Typography: Playfair Display (display/headers) + HK Grotesk (body/tagline) — both SIL OFL
-  All images (hero, headers, divider, bullet) are transparent PNGs so they sit correctly on
-  GitHub's actual page background, light or dark, rather than carrying a baked-in fill color
-  that only matches one theme. Regenerate anytime with assets/gen_banner.py and assets/gen_headers.py.
--->
-
 <div align="center">
 
 <picture>
@@ -26,12 +18,9 @@
 <br>
 
 <i>I like taking projects from a rough idea to something people can actually use, whether that is<br>
-a model, a robot, or a web app. Most of what is here started as a question I was curious about:<br>
-can an NLP pipeline triage mental health text well enough to matter, can a robot chain its own<br>
-movements instead of stopping between points, can a model trained on my own games get better<br>
-at Pokémon than I am.</i>
+a model, a robot, or a web app. Most of what is here started as a question I was curious about.</i>
 
-<br><br>
+<br>
 
 <sub><strong>PYTHON</strong> &nbsp;·&nbsp; <strong>C++</strong> &nbsp;·&nbsp; <strong>JAVASCRIPT</strong> &nbsp;·&nbsp; <strong>TYPESCRIPT</strong> &nbsp;·&nbsp; <strong>NEXT.JS</strong> &nbsp;·&nbsp; <strong>REACT</strong> &nbsp;·&nbsp; <strong>PYTORCH</strong> &nbsp;·&nbsp; <strong>SUPABASE</strong> &nbsp;·&nbsp; <strong>ARDUINO</strong> &nbsp;·&nbsp; <strong>LATEX</strong></sub>
 
@@ -47,10 +36,10 @@ at Pokémon than I am.</i>
 <img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/mental-health-sentiment-analysis">mental-health-sentiment-analysis</a></strong>: hybrid BERT and Random Forest pipeline for automated mental health text triage (about 85% accuracy), deployed on Hugging Face Spaces with a GitHub Pages frontend. The basis for a paper submitted to IJHSR.<br>
 <img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/voice-health">voice-health</a></strong>: XGBoost model on the UCI Parkinson's voice dataset, with SHAP for interpreting vocal biomarkers.<br>
 <img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/Parkinsons-Arduino">Parkinsons-Arduino</a></strong>: an Arduino-based hardware companion for Parkinson's-related signal sensing.<br>
-<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/PokeNet">PokeNet</a></strong>: a supervised imitation-learning AI for competitive Pokémon Showdown (Gen 9 OU), built as a residual MLP trained on a 725-dimensional feature vector from my own gameplay data, collected through a terminal proxy bot using poke-env.
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/showdown-AI">Pokémon Showdown AI</a></strong>: a supervised imitation-learning AI for competitive Pokémon Showdown (Gen 9 OU), built as a residual MLP trained on a 725-dimensional feature vector from my own gameplay data, collected through a terminal proxy bot using poke-env.
 </p>
 
-I also built an XGBoost and SHAP pipeline on the UCI Parkinson's voice dataset as a technical assessment for a university research lab application, and wrote an AP Research paper on implicitness and adaptability in gamified educational environments, with statistical analysis of the game metrics behind it.
+I've also built an XGBoost and SHAP pipeline on the UCI Parkinson's voice dataset as a technical assessment for a university research lab application, and wrote an AP Research paper on implicitness and adaptability in gamified educational environments, with statistical analysis of the game metrics behind it.
 
 <p align="center">
 <img src="./assets/headers/divider.png" width="620">
@@ -61,7 +50,8 @@ I also built an XGBoost and SHAP pipeline on the UCI Parkinson's voice dataset a
 I compete with VEX Robotics Team 285C.
 
 <p>
-<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/Pushback-285C">Pushback-285C</a></strong>: competition code for the Push Back season.<br>
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/VEX-Template-285C">VEX V5 Template</a></strong>: template for VEX V5 programming build on PROS & LemLib.<br>
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/Pushback-285C">Pushback-285C</a></strong>: competition code for the Pushback season.<br>
 <img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/Override-285C">Override-285C</a></strong>: competition code for the Override season.
 </p>
 
@@ -74,7 +64,7 @@ Outside competition code, I designed automatic motion-chaining formulas for LemL
 <img src="./assets/headers/hdr-other.png" height="34">
 
 <p>
-<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/Project-1600">Project 1600</a></strong>: a full-stack SAT prep and mentoring platform built with Next.js and Supabase.<br>
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://project-1600-one.vercel.app">Project 1600</a></strong>: a full-stack SAT prep and mentoring platform built with Next.js and Supabase.<br>
 <img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/2DPlatformer-IAGE">2DPlatformer-IAGE</a></strong>: an original 2D platformer game.<br>
 <img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/APUSH-Practice">APUSH-Practice</a></strong>: a gamified AP US History practice site.
 </p>
