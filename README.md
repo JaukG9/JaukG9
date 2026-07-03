@@ -33,9 +33,9 @@ a model, a robot, or a web app. Most of what is here started as a question I was
 <img src="./assets/headers/hdr-ml.png" height="34">
 
 <p>
-<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/mental-health-sentiment-analysis">mental-health-sentiment-analysis</a></strong>: hybrid BERT and Random Forest pipeline for automated mental health text triage (about 85% accuracy), deployed on Hugging Face Spaces with a GitHub Pages frontend. The basis for a paper submitted to IJHSR.<br>
-<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/voice-health">voice-health</a></strong>: XGBoost model on the UCI Parkinson's voice dataset, with SHAP for interpreting vocal biomarkers.<br>
-<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/Parkinsons-Arduino">Parkinsons-Arduino</a></strong>: an Arduino-based hardware companion for Parkinson's-related signal sensing.<br>
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/mental-health-sentiment-analysis">Mental Health Sentiment Analysis</a></strong>: hybrid BERT and Random Forest pipeline for automated mental health text triage (about 85% accuracy), deployed on Hugging Face Spaces with a GitHub Pages frontend. The basis for a paper submitted to IJHSR.<br>
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/voice-health">Voice Health</a></strong>: XGBoost model on the UCI Parkinson's voice dataset, with SHAP for interpreting vocal biomarkers.<br>
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/Parkinsons-Arduino">Parkinsons TinyWatch</a></strong>: an Arduino-based hardware companion for Parkinson's-related signal sensing.<br>
 <img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/showdown-AI">Pokémon Showdown AI</a></strong>: a supervised imitation-learning AI for competitive Pokémon Showdown (Gen 9 OU), built as a residual MLP trained on a 725-dimensional feature vector from my own gameplay data, collected through a terminal proxy bot using poke-env.
 </p>
 
@@ -51,8 +51,8 @@ I compete with VEX Robotics Team 285C.
 
 <p>
 <img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/VEX-Template-285C">VEX V5 Template</a></strong>: template for VEX V5 programming build on PROS & LemLib.<br>
-<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/Pushback-285C">Pushback-285C</a></strong>: competition code for the Pushback season.<br>
-<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/Override-285C">Override-285C</a></strong>: competition code for the Override season.
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/Pushback-285C">Pushback 285C</a></strong>: competition code for the Pushback season for 285C Discobots Chaos.<br>
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/Override-285C">Override 285C</a></strong>: competition code for the Override season for 285C Discobots Chaos.
 </p>
 
 Outside competition code, I designed automatic motion-chaining formulas for LemLib's `moveToPoint()` and `turnToHeading()`, using kinematic stopping distance and trapezoidal or triangular motion profiles so the robot carries its current speed into the next movement instead of stopping and restarting between points.
@@ -65,7 +65,7 @@ Outside competition code, I designed automatic motion-chaining formulas for LemL
 
 <p>
 <img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://project-1600-one.vercel.app">Project 1600</a></strong>: a full-stack SAT prep and mentoring platform built with Next.js and Supabase.<br>
-<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/2DPlatformer-IAGE">2DPlatformer-IAGE</a></strong>: an original 2D platformer game.<br>
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/2DPlatformer-IAGE">IAGE 2D Platformer</a></strong>: an original 2D platformer game used for a research project over implcitness & adaptability in gamiefied education.<br>
 <img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/APUSH-Practice">APUSH-Practice</a></strong>: a gamified AP US History practice site.
 </p>
 
@@ -76,11 +76,11 @@ Outside competition code, I designed automatic motion-chaining formulas for LemL
 <img src="./assets/headers/hdr-highlights.png" height="34">
 
 <p>
-<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong>Research paper</strong>: wrote a paper on a hybrid BERT and Random Forest pipeline for mental health text triage, submitted to the International Journal of High School Research (IJHSR).<br>
-<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong>Rice University</strong>: completed a research program at Rice University.<br>
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong>Mental Health Sentiment Analysis</strong>: wrote a paper on a hybrid BERT and Random Forest pipeline for mental health text triage, submitted to the International Journal of High School Research (IJHSR).<br>
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong>Rice University DHYS</strong>: participated in the Digital Health Young Scholars program at Rice University, where I created a watch to address Parkinson's disease in underserved areas.<br>
 <img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong>Research lab technical assessment</strong>: built an XGBoost and SHAP pipeline on the UCI Parkinson's voice dataset as part of a university research lab application.<br>
 <img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong>AP Research</strong>: independent paper on implicitness and adaptability in gamified educational environments, including original statistical analysis of in-game metrics.<br>
-<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong>VEX Robotics</strong>: ongoing competitor with Team 285C.
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong>VEX Robotics</strong>: lead programmer for team 285C, competing in V5 competition.
 </p>
 
 <p align="center">
