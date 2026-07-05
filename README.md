@@ -10,7 +10,7 @@
   &ensp;
   <a href="https://github.com/JaukG9" title="GitHub"><img height="26" alt="GitHub" src="https://img.shields.io/badge/GitHub-d32f2f?style=flat-square&logo=github&logoColor=white"></a>
   &ensp;
-  <a href="https://linkedin.com/in/ayaan-goswami-06418936a/" title="LinkedIn"><img height="26" alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-d32f2f?style=flat-square&logo=linkedin&logoColor=white"></a>
+  <a href="https://linkedin.com/in/ayaangoswami/" title="LinkedIn"><img height="26" alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-d32f2f?style=flat-square&logo=linkedin&logoColor=white"></a>
   &ensp;
   <a href="mailto:ayaangoswami17@gmail.com" title="Email"><img height="26" alt="Email" src="https://img.shields.io/badge/Email-d32f2f?style=flat-square&logo=gmail&logoColor=white"></a>
 </p>
