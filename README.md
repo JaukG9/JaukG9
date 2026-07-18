@@ -64,7 +64,7 @@ Outside competition code, I designed automatic motion-chaining formulas for LemL
 <img src="./assets/headers/hdr-other.png" height="34">
 
 <p>
-<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://project-1600-one.vercel.app">Project 1600</a></strong>: a full-stack SAT prep and mentoring platform built with Next.js and Supabase.<br>
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://project1600.org">Project 1600</a></strong>: a full-stack SAT prep and mentoring platform built with Next.js and Supabase.<br>
 <img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/2DPlatformer-IAGE">IAGE 2D Platformer</a></strong>: an original 2D platformer game used for a research project over implcitness & adaptability in gamiefied education.<br>
 <img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/APUSH-Practice">APUSH Practice</a></strong>: a gamified AP US History practice site.
 </p>
