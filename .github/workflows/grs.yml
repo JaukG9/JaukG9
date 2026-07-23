@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v6
 
       - name: Stats card, light
-        uses: stats-organization/github-readme-stats-action@v2
+        uses: stats-organization/github-stats-extended-action@v2
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&title_color=d32f2f&icon_color=d32f2f&text_color=1a1a1a&bg_color=00000000
@@ -25,7 +25,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Stats card, dark
-        uses: stats-organization/github-readme-stats-action@v2
+        uses: stats-organization/github-stats-extended-action@v2
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&title_color=d32f2f&icon_color=d32f2f&text_color=f5f5f5&bg_color=00000000
@@ -33,7 +33,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Top languages, light
-        uses: stats-organization/github-readme-stats-action@v2
+        uses: stats-organization/github-stats-extended-action@v2
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&hide_border=true&title_color=d32f2f&text_color=1a1a1a&bg_color=00000000
@@ -41,7 +41,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Top languages, dark
-        uses: stats-organization/github-readme-stats-action@v2
+        uses: stats-organization/github-stats-extended-action@v2
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&hide_border=true&title_color=d32f2f&text_color=f5f5f5&bg_color=00000000
