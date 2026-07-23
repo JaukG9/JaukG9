@@ -101,12 +101,12 @@ Outside competition code, I designed automatic motion-chaining formulas for LemL
 <br><br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
-  <img src="./profile/stats.svg" height="165" alt="GitHub stats" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=JaukG9&show_icons=true&hide_border=true&title_color=d32f2f&icon_color=d32f2f&text_color=f5f5f5&bg_color=00000000">
+  <img src="https://github-readme-stats.vercel.app/api?username=JaukG9&show_icons=true&hide_border=true&title_color=d32f2f&icon_color=d32f2f&text_color=1a1a1a&bg_color=00000000" height="165" alt="GitHub stats" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg">
-  <img src="./profile/top-langs.svg" height="165" alt="Top languages" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=JaukG9&layout=compact&hide_border=true&title_color=d32f2f&text_color=f5f5f5&bg_color=00000000">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JaukG9&layout=compact&hide_border=true&title_color=d32f2f&text_color=1a1a1a&bg_color=00000000" height="165" alt="Top languages" />
 </picture>
 
 <br><br>
