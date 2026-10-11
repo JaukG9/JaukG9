@@ -10,7 +10,9 @@
   &ensp;
   <a href="https://github.com/JaukG9" title="GitHub"><img height="26" alt="GitHub" src="https://img.shields.io/badge/GitHub-d32f2f?style=flat-square&logo=github&logoColor=white"></a>
   &ensp;
-  <a href="https://linkedin.com/in/ayaan-goswami-06418936a/" title="LinkedIn"><img height="26" alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-d32f2f?style=flat-square&logo=linkedin&logoColor=white"></a>
+  <a href="https://linkedin.com/in/ayaangoswami/" title="LinkedIn"><img height="26" alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-d32f2f?style=flat-square&logo=linkedin&logoColor=white"></a>
+  &ensp;
+  <a href="mailto:ayaangoswami17@gmail.com" title="Email"><img height="26" alt="Email" src="https://img.shields.io/badge/Email-d32f2f?style=flat-square&logo=gmail&logoColor=white"></a>
 </p>
 
 <br>
@@ -20,7 +22,7 @@ a model, a robot, or a web app. Most of what is here started as a question I was
 
 <br>
 
-<sub>📍 Houston, TX &nbsp;·&nbsp; 🎓 Carnegie Vanguard High School, Class of 2027 &nbsp;·&nbsp; 🤖 VEX Robotics 285C &nbsp;·&nbsp; 🏆 AI YES Hackathon Gold Award</sub>
+<sub>Houston, TX &nbsp;·&nbsp; Carnegie Vanguard High School, Class of 2027 &nbsp;·&nbsp; VEX Robotics 285C &nbsp;·&nbsp; AI YES Hackathon Gold Award</sub>
 
 <br>
 
@@ -65,7 +67,7 @@ Outside competition code, I designed automatic motion-chaining formulas for LemL
 <img src="./assets/headers/hdr-other.png" height="34">
 
 <p>
-<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong>AI YES International Youth AI Hackathon</strong> 🏆: with one teammate from Carnegie Vanguard, I built a student mental health submission for the Fall 2026 hackathon and won the <strong>Gold (highest) Award</strong>.<br>
+<img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong>AI YES International Youth AI Hackathon</strong>: with one teammate from Carnegie Vanguard, I built a student mental health submission for the Fall 2026 hackathon and won the <strong>Gold (highest) Award</strong>.<br>
 <img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong>Growth Hormone Therapy Tracker</strong>: a mobile app for daily growth hormone therapy, with injection rotation tracking, growth analytics and doctor reports. It is live on the App Store and Google Play, with 110+ families using it.<br>
 <img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://project-1600-one.vercel.app">Project 1600</a></strong>: a full-stack SAT/PSAT prep platform built with Next.js 15, TypeScript, Supabase and Stripe, with mentor and student dashboards, enrollment workflows and a multi-step checkout. I am cofounder and CTO.<br>
 <img src="./assets/headers/bullet.png" width="11"/>&nbsp; <strong><a href="https://github.com/JaukG9/APUSH-Practice">APUSH-Practice</a></strong>: a gamified AP US History practice site.
@@ -134,12 +136,12 @@ Outside competition code, I designed automatic motion-chaining formulas for LemL
 <br><br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
-  <img src="./profile/stats.svg" height="165" alt="GitHub stats" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=JaukG9&show_icons=true&hide_border=true&title_color=d32f2f&icon_color=d32f2f&text_color=f5f5f5&bg_color=00000000">
+  <img src="https://github-stats-extended.vercel.app/api?username=JaukG9&show_icons=true&hide_border=true&title_color=d32f2f&icon_color=d32f2f&text_color=1a1a1a&bg_color=00000000" height="165" alt="GitHub stats" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg">
-  <img src="./profile/top-langs.svg" height="165" alt="Top languages" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=JaukG9&layout=compact&hide_border=true&title_color=d32f2f&text_color=f5f5f5&bg_color=00000000">
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=JaukG9&layout=compact&hide_border=true&title_color=d32f2f&text_color=1a1a1a&bg_color=00000000" height="165" alt="Top languages" />
 </picture>
 
 <br><br>
