@@ -57,10 +57,8 @@ headers = [
     ("Machine Learning & Research", "hdr-ml.png"),
     ("VEX Robotics", "hdr-robotics.png"),
     ("Other Projects", "hdr-other.png"),
-    ("Experience & Leadership", "hdr-experience.png"),
+    ("Experience", "hdr-experience.png"),
     ("Honors & Awards", "hdr-awards.png"),
-    ("About & Education", "hdr-about.png"),
-    ("Highlights", "hdr-highlights.png"),
     ("GitHub Activity", "hdr-activity.png"),
     ("GitHub Stats", "hdr-stats.png"),
 ]
