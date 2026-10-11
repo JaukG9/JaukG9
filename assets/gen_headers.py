@@ -1,7 +1,9 @@
 from PIL import Image, ImageDraw, ImageFont
 import os
 
-FONT_DIR = "/home/claude/fonts"
+HERE = os.path.dirname(os.path.abspath(__file__))
+FONT_DIR = os.path.join(HERE, "fonts")
+OUT_DIR = os.path.join(HERE, "headers")
 DISPLAY_BOLD = f"{FONT_DIR}/PlayfairDisplay-Bold.ttf"
 
 ACCENT = (211, 47, 47, 255)  # #d32f2f — visible on both light & dark, so headers need no theme pair
@@ -55,22 +57,25 @@ headers = [
     ("Machine Learning & Research", "hdr-ml.png"),
     ("VEX Robotics", "hdr-robotics.png"),
     ("Other Projects", "hdr-other.png"),
+    ("Experience & Leadership", "hdr-experience.png"),
+    ("Honors & Awards", "hdr-awards.png"),
+    ("About & Education", "hdr-about.png"),
     ("Highlights", "hdr-highlights.png"),
     ("GitHub Activity", "hdr-activity.png"),
     ("GitHub Stats", "hdr-stats.png"),
 ]
 
-os.makedirs("/home/claude/headers", exist_ok=True)
+os.makedirs(OUT_DIR, exist_ok=True)
 # clean out any header images from earlier section layouts that no longer apply
 for stale in ("hdr-coursework.png", "hdr-beyond.png", "hdr-fullstack.png"):
-    stale_path = f"/home/claude/headers/{stale}"
+    stale_path = os.path.join(OUT_DIR, stale)
     if os.path.exists(stale_path):
         os.remove(stale_path)
 
 for text, fname in headers:
-    make_header(text, f"/home/claude/headers/{fname}")
+    make_header(text, os.path.join(OUT_DIR, fname))
 
-make_divider("/home/claude/headers/divider.png")
-make_bullet("/home/claude/headers/bullet.png")
+make_divider(os.path.join(OUT_DIR, "divider.png"))
+make_bullet(os.path.join(OUT_DIR, "bullet.png"))
 
 print("done")

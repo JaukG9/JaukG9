@@ -1,6 +1,9 @@
 from PIL import Image, ImageDraw, ImageFont
 
-FONT_DIR = "/home/claude/fonts"
+import os
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+FONT_DIR = os.path.join(HERE, "fonts")
 DISPLAY_BLACK = f"{FONT_DIR}/PlayfairDisplay-Black.ttf"
 BODY = f"{FONT_DIR}/HKGrotesk-Regular.ttf"
 BODY_SEMI = f"{FONT_DIR}/HKGrotesk-SemiBold.ttf"
@@ -61,9 +64,9 @@ def make_banner(path, fg, muted, accent=ACCENT):
     img.save(path)
 
 # Light-theme text: dark ink title, mid-gray tagline, transparent canvas throughout
-make_banner("/home/claude/hero-light.png", (26, 26, 26, 255), (85, 85, 90, 255))
+make_banner(os.path.join(HERE, "hero-light.png"), (26, 26, 26, 255), (85, 85, 90, 255))
 
 # Dark-theme text: off-white title, light-gray tagline, transparent canvas throughout
-make_banner("/home/claude/hero-dark.png", (245, 245, 245, 255), (168, 168, 173, 255))
+make_banner(os.path.join(HERE, "hero-dark.png"), (245, 245, 245, 255), (168, 168, 173, 255))
 
 print("done")
